@@ -4,10 +4,14 @@
 4. Download AI model 
 	$ollama pull qwen3:4b or 
 	$ollama pull qwen3:1.7b
-5. Verify ollama is working? ollama run qwen3:4b
+5. Verify ollama is working? 
+	$ollama run qwen3:4b
+	$ollama run qwen3:1.7b
 
 6. Create a project & Open in VS code
-7. Create Virtual Env $python -m venv .rkenv $.rkenv\Scripts\activate
+7. Create Virtual Env 
+	$python -m venv .rkenv 
+	$.rkenv\Scripts\activate
 
 8. Open project VS code terminal 
 	Install python library 
@@ -21,4 +25,4 @@ Create .env file inside 01Day folder
 	API_KEY=ollama
 	MODEL=qwen3:1.7b
 
-10.Test
+10.
