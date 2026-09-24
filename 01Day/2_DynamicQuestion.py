@@ -2,6 +2,8 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
+
+# ************* Ask Dynamic question *************
 #load configuration from the .env file
 load_dotenv()
 
