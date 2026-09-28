@@ -70,10 +70,3 @@ while True:
             "content":ai_reply
         }
     )
-
-    # print("\n =============Chat history Start=============")
-    # #title method returns name in Upper case like- Rahul
-    # for message in messages:
-    #     print(f"{message['role'].title()} : {message['content']}")
-
-    # print("\n =============Chat history End=============")

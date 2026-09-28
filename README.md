@@ -38,7 +38,7 @@ Create .env file inside 01Day folder
 - We can create a memory for our chatbot.
 - This memory is created by us using Python, not by the LLM.
 - We can create an empty Python list and keep adding information to the list whenever needed.
-3) Use tools?
+3) use case - Integrate python tool manager with AI assistant - Use tools?
 Example: Getting the current date/time, generating random numbers, or creating passwords.
 - An LLM does not always know the current system date and time.
 - So, we can write a Python program to get the current date and time.

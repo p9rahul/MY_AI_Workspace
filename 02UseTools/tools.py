@@ -31,3 +31,14 @@ def generate_password(length=12):
         password += secrets.choice(characters)
 
     return password
+
+
+# Create a txt file inside data folder
+
+def read_text_file(fileName):
+    try:
+        with open(fileName,"r") as file:
+            return file.read()
+    except FileNotFoundError:
+        return "Rahul : This file is not found."    
+    

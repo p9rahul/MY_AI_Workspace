@@ -7,7 +7,8 @@ so it can be readable by AI/our python code assistance
 from tools import(
     get_current_time,
     roll_dice,
-    generate_password
+    generate_password,
+    read_text_file
 )
 
 def execute_tool(user_input):
