@@ -25,7 +25,7 @@ Create .env file inside 01Day folder
 	API_KEY=ollama
 	MODEL=qwen3:1.7b
 
-10. 
+10. other LLM - Now Jev, openrouter
 
 
 ===========================================

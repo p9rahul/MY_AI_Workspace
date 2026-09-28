@@ -197,7 +197,7 @@ while True:
 
         )
 
-        print(response.choices[0].message.content)
+        print("AI Bot:" ,response.choices[0].message.content)
         continue
 
 
@@ -207,7 +207,7 @@ while True:
 
     if tool_result:
 
-        print("\nAI :", tool_result)
+        print("\nAI Bot :", tool_result)
 
         continue
 
