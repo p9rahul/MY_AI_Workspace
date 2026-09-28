@@ -1,3 +1,4 @@
 # Distribution / packaging
 .Python
 **/**/.rkenv
+**/**/__pycache__

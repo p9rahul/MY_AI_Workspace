@@ -3,7 +3,14 @@ from dotenv import load_dotenv
 import os
 
 
-# ************* Ask Dynamic question with Memory but this remember memory is created by US not by model it stores in list *************
+'''
+************* 
+ Ask Dynamic question with Memory but this remember memory is created by 
+ US usning python list not by model.
+***********
+'''
+
+
 #load configuration from the .env file
 load_dotenv()
 
@@ -17,7 +24,7 @@ print("=" *40)
 print("     Rahul 1stAI Assistant")
 print("=" *40)
 
-#Create a empty list 
+#Create a empty list and append this list everytime.
 messages =[]
 
 while True:
