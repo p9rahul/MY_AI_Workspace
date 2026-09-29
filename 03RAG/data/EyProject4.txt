@@ -1,0 +1,14 @@
+The Travelers Companies, Inc., commonly known as Travelers, is an 
+American multinational insurance company. It is the second-largest 
+writer of U.S. commercial property and casualty insurance,
+ and the sixth-largest writer of U.S. personal insurance through independent agents.[3][4] 
+ Travelers is incorporated in Minnesota, with headquarters in New York City,
+  and its largest office in Hartford, Connecticut.[2] 
+It has been a component of the Dow Jones Industrial Average since June 8, 2009
+
+Project structure:
+
+Dev team: Aurn shivraj, Dayaan, Mike, john
+QA team: Selvi, vahini
+Performance team: Abdul, Kavya
+BA : Azudin khan

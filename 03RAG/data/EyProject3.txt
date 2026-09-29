@@ -1,0 +1,11 @@
+Farmers Insurance Group (also known as Farmers) is an American insurer 
+providing coverage for vehicles, homes and small businesses including 
+other insurance and financial services products. The group operates through more than 48,000
+ exclusive and independent agents and approximately 21,000 employees.
+
+Project structure:
+
+Dev team: sunny, Kulkarni, Mantu, deepesh
+QA team: Venki, sudarsan
+Performance team: Rajesh,Ajay kamra
+BA : Vinod yadav

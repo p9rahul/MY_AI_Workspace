@@ -1,0 +1,12 @@
+Insurance Australia Group Limited (IAG) is a multinational insurance company.
+ It is the largest general insurance company in Australia and also the largest in New Zealand 
+ through its subsidiary IAG New Zealand. IAG had its origins in the 
+ National Roads and Motorists' Association NRMA.
+ It is headquartered in Sydney, Australia.
+
+Project structure:
+
+Dev team: Deepak, umesh, Mani, Mamta
+QA team: mani vankat, sandeep panda
+Performance team: Rakesh,Ajay
+BA : Rahul pandey
