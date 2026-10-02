@@ -61,8 +61,9 @@ async def run_agent_loop(
     format_answer,
     tools,
     client
-):
+    ):
 
+    # Call create_state from state.py
     state = create_state(
         user_request
     )
@@ -75,6 +76,7 @@ async def run_agent_loop(
         user_request
     )
 
+    #run for all tasks and add task in planner
     for task in planned_tasks:
 
         add_task(
@@ -109,20 +111,13 @@ async def run_agent_loop(
                 f"{state['current_step'] + 1} ---"
             )
 
-            print(
-                "Planner Decision:"
-            )
+            print("Planner Decision:")
 
             print("TASK: FINISH")
 
-            answer = format_answer(
-                state
-            )
+            answer = format_answer(state)
 
-            finish(
-                state,
-                answer
-            )
+            finish(state,answer)
 
             break
 
@@ -135,14 +130,9 @@ async def run_agent_loop(
         # Ask planner for next task
         # --------------------------------
 
-        decision = planner(
-            state,
-            tools
-        )
+        decision = planner(state,tools)
 
-        print(
-            "Planner Decision:"
-        )
+        print("Planner Decision:")
 
         print(decision)
 
@@ -152,14 +142,9 @@ async def run_agent_loop(
 
         if decision.strip().upper() == "FINISH":
 
-            answer = format_answer(
-                state
-            )
+            answer = format_answer(state)
 
-            finish(
-                state,
-                answer
-            )
+            finish(state,answer)
 
             break
 
@@ -167,9 +152,7 @@ async def run_agent_loop(
         # Extract task and tool
         # --------------------------------
 
-        task, tool = parse_decision(
-            decision
-        )
+        task, tool = parse_decision(decision)
 
         if not task or not tool:
 
@@ -194,19 +177,13 @@ async def run_agent_loop(
             client
         )
 
-        print(
-            "Observation:",
-            observation
-        )
+        print("Observation:",observation)
 
         # --------------------------------
         # Update state
         # --------------------------------
 
-        add_action(
-            state,
-            tool
-        )
+        add_action(state,tool)
 
         record_observation(
             state,

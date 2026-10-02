@@ -32,7 +32,7 @@ async def disconnect(client):
 async def discover_tools(client):
 
     """
-    Retrieve all tools from the server.
+    Retrieve all tools from the server file -> All methods.
     """
 
     tools = await client.list_tools()
